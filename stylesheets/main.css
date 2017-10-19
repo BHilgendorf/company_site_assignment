@@ -11,30 +11,29 @@ body {
   color: #45494d;
 }
 
-p {
-  line-height: 27px;
-}
-
 h2 {
   padding-bottom: 40px;
-  font: bold 20px "Avenir", Helvetica, Arial, sans-serif;
-  font-size: 1.8rem;
+  font: bold 1.8rem "Avenir", Helvetica, Arial, sans-serif;
 }
 
 h2:before,
 h2:after  {
   content: "\2022";
   display: inline-block;
-  padding: 0 24px;
+  padding: 0 1.2rem;
   vertical-align: 5px;
-  font-size: 22px;
+  font-size: 1.1rem;
 }
 
 h3 {
-  padding: 7px 0 25px 0;
+  padding: 5px 0 25px 0;
   color: #3e59b2;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.2rem;
+}
+
+p {
+  line-height: 1.35rem;
 }
 
 a {
@@ -53,7 +52,7 @@ a {
 /*===================================================*/
 /* Header Styles                                     */
 /*===================================================*/
-header {
+.site-header {
   height: 518px;
   width: 100%;
   margin-bottom: 100px;
@@ -71,7 +70,7 @@ nav li {
 }
 
 nav a {
-  font-size: 1.2rem;  /* 24px*/
+  font-size: 1.2rem;
   color: #cacaca;
   text-transform: uppercase;
 }
@@ -91,9 +90,8 @@ footer {
 
 footer p {
   margin-bottom: 42px;
-  line-height: 26px;
+  line-height: 1.3rem;
   color: #b2b2b2;
-
 }
 
 footer li {
@@ -123,10 +121,9 @@ footer a {
 /*===================================================*/
 /* Home Page Styles                                  */
 /*===================================================*/
-.home section {
+.home div{
   margin: 100px 110px;
 }
-
 
 /*===================================================*/
 /* Projects Page Styles                              */
@@ -135,10 +132,6 @@ footer a {
   display: inline-block;
   width: 940px;
   margin: 0 30px 15px 30px;
-}
-
-.projects p {
- 
 }
 
 .projects section {
@@ -172,6 +165,5 @@ footer a {
 
 .people a {
   color: #3e59b2;
-  font-size: 24px;
+  font-size: 1.2rem;
 }
-
